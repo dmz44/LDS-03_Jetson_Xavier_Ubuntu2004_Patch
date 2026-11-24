@@ -2,4 +2,9 @@
 
 gitclone this repo on Nvidia Jetson Xavier NX to install necessary drivers and enable LDS-03.
 
+```
+chmod +x setup_lds03_foxy.sh
+./setup_lds03_foxy.sh
+```
+
 This retroactively gives support for LDS-03 to Foxy branch of the manipulator bringup, which does not officially support LDS-03. Note that Foxy branch of the manipulator bringup is no longer supported.
